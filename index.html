@@ -23,10 +23,10 @@
 
       <!-- navbar -->
       <!-- conf fixed-top se mantiene la barra estatica -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
             <div class="container">
          
-                <a class="navbar-brand" href="#">bootstrap web site</a>
+                <a class="navbar-brand" href="./index.html"> <img class="favi" src="img/favicon.png" alt=""> bootstrap web site</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -89,14 +89,18 @@
 
       </header>
 
-      <!-- comentario del usuario -->
-      <section  class="rounded-pill" id="testimonial">
-        <div class="container">
-           <p class="h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eos veritatis optio architecto ut commodi itaque ex ipsum esse, mollitia quas? Libero natus unde, et voluptatem saepe accusamus expedita obcaecati?</p>
-           <p class="h4">Andrew</p>
-        </div>
+      <!-- comentario del usuario  class="rounded-pill"-->
+      <section id="testimonial" >
+        
+            <div class="container">
+                <p class="h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eos veritatis optio architecto ut commodi itaque ex ipsum esse, mollitia quas? Libero natus unde, et voluptatem saepe accusamus expedita obcaecati?</p>
+                <p class="h4">Andrew</p>
+             </div>
+        
+       
        </section>
 
+     
         <!-- informacion -->
         <section id="info-one">
            <div class="container">
@@ -151,6 +155,40 @@
            </div>
         </section>
 
+        <!-- <section>
+            <div class="container var">
+              <div>
+                <p class="text-justify var1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolor aliquam officiis, dolorem commodi minima laborum in molestiae, repudiandae eos sequi sit, beatae nam! Exercitationem labore molestias libero culpa assumenda!</p>
+              </div>
+              <div>
+                <p class="text-justify var2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolor aliquam officiis, dolorem commodi minima laborum in molestiae, repudiandae eos sequi sit, beatae nam! Exercitationem labore molestias libero culpa assumenda!</p>
+              </div>
+            </div>
+        </section> -->
+
+ <!-- carrucel -->
+ <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade bg-danger carrucell container" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/image1.png" class="d-block  img1" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/image1.png" class="d-block  img2" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/image2.png" class="d-block  img3" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div> -->
+
         <!-- contacto -->
         <footer id="contact">
              <div class="container">
@@ -169,7 +207,7 @@
                                <textarea class="form-control" rows="10" cols="30" placeholder="Message"></textarea>
                              </div>
                              <div class="form-group">
-                               <button  class="btn btn-outline-secondary btn-block" type="submit">Enviar</button>
+                               <button  class="btn btn-outline-primary btn-block bg-info text-dark " type="submit">Enviar</button>
 
                               </div>
                           </div>
@@ -178,7 +216,12 @@
 
                  </div>
              </div>
+            
         </footer>
+
+        <div class=" p-3  text-center copy">
+              <p>Copyright &copy 2019</p>
+         </div>
  <!-- social bar -->
   <div class="social-bar">
       <a href="https://www.facebook.com/DevCode.la" class="icon icon-facebook2" target="_blank"></a>
@@ -194,6 +237,7 @@
       <!-- SCROOLL REVEAL SCRIPT -->
      <!-- agregando biblioteca scrollreveal -->
      <script>
+   
     window.sr = ScrollReveal();
 
      sr.reveal('.navbar', {
@@ -262,6 +306,7 @@
     });
      </script>
 
+      
 
     </body>
 </html>

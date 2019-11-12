@@ -1,18 +1,133 @@
 body{
     font-family: 'Titillium Web', sans-serif;
+    margin-right: auto;
 }
 header{
-    margin-top: 75px;
+    margin-top: 100px;
 }
-#testimonial{
-    background: #f1f1f1;
+
+#testimonial {
+    background-color: #f1f1f1;
+   
+    border-radius: 20px;
     padding: 50px 0px 30px 0px;
     text-align: center ;
     margin-top: 40px;
-  
+    margin-left: 15px;
+    margin-right: 15px;
+    
 }
 
 footer{
     background:url(../img/smartphones.png) ;
+    
 }
 
+.copy{
+    background-color: #30336b;
+    color: #f1f1f1;
+}
+
+   
+.flex-container {
+    /* display: -webkit-flex; */
+    display: flex;
+    background-color: lightgrey;
+    /* justify-content: space-between; */
+    /* justify-content:flex-end; */
+}
+.flex-item {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.var{
+      display: flex;
+      justify-content: space-between;
+}
+/*     
+a{
+    margin: 10px;
+} */
+
+.var1{
+    border: solid 2px blue;
+    width: 500px;
+    padding: 10px;
+    /* margin-top: -300px;
+    position: relative; */
+}
+
+
+.var2{
+    border: solid 2px blue;
+    width: 500px;
+    padding: 10px;
+
+}
+
+.foo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.favi{
+    height: 50;
+    width: 50px;
+}
+
+.img1{
+    height: 350px;
+    margin-left: 300px;
+   position: relative;  
+   z-index:2
+}
+
+
+.img2{
+    height: 350px;
+    margin-left: 300px;
+   
+}
+
+
+.img3{
+    height: 350px;
+    width: 500px;
+    margin-left: 300px;
+}
+.carrucell{
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:767px){
+    .header-conten-right{
+        text-align: center;
+    }
+    .info-right{
+        text-align: center;
+    }
+  
+#testimonial {
+      
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+}
+
+
+@media screen and (max-width:380px){
+  
+     
+#testimonial p {
+  font-size: 25px;
+  text-align: justify;
+ }
+
+}

@@ -4,13 +4,15 @@ html {
 
 .social-bar {
 	position: fixed;
-	right: 0;
+	/* right: 0; */
+	left: 0;
 	top: 35%;
 	font-size: 1.5rem;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-end;
+	align-items: flex-start;
 	z-index: 100;
+	
 }
 
 .icon {
@@ -19,6 +21,7 @@ html {
 	padding: .7rem;
 	display: flex;
 	transition: all .5s;
+	margin: 0;
 }
 
 .icon-facebook2 {
@@ -38,15 +41,27 @@ html {
 }
 
 .icon:first-child {
-	border-radius: 1rem 0 0 0;
+	border-radius: 0 1rem 0 0;
 }
+
 
 .icon:last-child {
-	border-radius: 0 0 0 1rem;
+	border-radius: 0 0 1rem 0;
+	
+}
+.icon:hover {
+	padding-left: 3rem; 
+	border-radius: 0 1rem 1rem 0;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0,0.42rem);
 }
 
-.icon:hover {
-	padding-right: 3rem;
-	border-radius: 1rem 0 0 1rem;
-	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+
+@media screen and (max-width:575px){
+  
+    .icon{
+	   color:white;
+	   opacity: .2;
+    }
+
 }
+
